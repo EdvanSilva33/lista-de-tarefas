@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,400;0,700;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #f4f8cd;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  padding: 16px 0;
+}
+.container h1 {
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+.container input {
+  width: 220px;
+  padding: 10px;
+  font-size: 17px;
+}
+.container button {
+  color: #fff;
+  background-color: #6cbb1c;
+  border: none;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.lista {
+  text-transform: capitalize;
+  margin-top: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.lista-estilo {
+  text-decoration: #fc0000 line-through;
+}
